@@ -8,13 +8,64 @@ papa_img = Image.open('20220410_155706_0000.png')
 bingg_img = Image.open('IMG-20220819-WA0006.jpg')
 var_img = Image.open('IMG_20220604_200315.jpg')
 snv_img = Image.open('20230702_114424.jpg')
+hr_img = Image.open('IMG-20220819-WA0006.jpg')
+
+abrm_img = Image.open('Photo from Saathvik S (1).jpg')
+aj_img = Image.open('SmartSelect_20230125_081617_Instagram.jpg')
+kr_img = Image.open('SmartSelect_20220921-133231_WhatsApp.jpg')
+sr_img = Image.open('IMG-20220803-WA0010.jpg')
+bt_img = Image.open('SmartSelect_20230723_211519_WhatsApp.jpg')
+pnd_img = Image.open('Photo from Saathvik S.jpg')
 
 title = st.title("YOU ARE FAMOUS")
 c1 , c2 = st.columns(2)
 
-rn = st.number_input("Enter your roll_no ")
+rn = st.number_input("roll.no or phone no of min 5 digits")
 
 with c1:
+
+    if rn == 99481:
+        st.header("_YOU ARE AJAY_")
+        st.write("You are from Kothakota")
+        st.write("You like watching movies")
+        st.subheader("Gibbs , bro")
+        st.write("fav food : Talkay")
+
+    if rn == 82476:
+        st.header("_YOU ARE SRIKANTH_")
+        st.write("You are from Kothakota")
+        st.write("You like Talking, foodie")
+        st.subheader("Bro , Setu")
+        st.write("fav food : Mandi")
+
+    if rn == 96402:
+        st.header("_YOU ARE KIRAN_")
+        st.write("You are from Telkapally")
+        st.write("You like Meenakshi , Hemanth ")
+        st.subheader("Chintu")
+        st.write("fav food : Biryani")
+
+    if rn == 87905:
+        st.header("_YOU ARE NITHIN_")
+        st.write("You are from Kothakota")
+        st.write("You like BGMI , Friends")
+        st.subheader("Banti")
+        st.write("fav food : Mandi")
+
+    if rn == 93900:
+        st.header("_YOU ARE SATHYA SHEELA REDDY_")
+        st.write("You are from Kothakota")
+        st.write("You like BGMI , Reels")
+        st.subheader("Pandu")
+        st.write("fav food : Biryani")
+
+    if rn == 77026:
+        st.header("_YOU ARE ABHIRAM_")
+        st.write("You are from KMIT")
+        st.write("You like watching anime")
+        st.subheader("Abhi")
+        st.write("fav food : biryani ?")
+
 
     if rn == 30:
         st.header("_YOU ARE DHEERAJ_")
@@ -84,7 +135,6 @@ with c1:
     if rn == 16:
         st.title("_YOU ARE RISHITHA_")
         st.write("You are from K.K.R.P.S")
-        st.write("Your pet's name is KIWI")
         st.write("Best friend : HARSHINI")
 
 #_____________________________________________Images____________________________
@@ -107,3 +157,24 @@ with c2:
 
     if rn == 23:
         st.image(snv_img)
+
+    if rn == 99481:
+        st.image(aj_img)
+
+    if rn == 82476:
+        st.image(sr_img)
+
+    if rn == 96402:
+        st.image(kr_img)
+
+    if rn == 87905:
+        st.image(bt_img)
+
+    if rn == 93900:
+        st.image(pnd_img)
+
+    if rn == 77026:
+        st.image(abrm_img)
+
+    if rn == 26:
+        st.image(hr_img)
