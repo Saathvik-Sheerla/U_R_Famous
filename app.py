@@ -1,6 +1,9 @@
 import streamlit as st
 from PIL import Image 
 
+mb2_img = Image.open('Mahesh-Babu-Super-HD-Stills-from-Maharshi-5.webp')
+aa_img = Image.open('0df61656b7e76ab5cecaf3e6be991edc.jpg')
+
 ab_img = Image.open('20230331_181049.jpg')
 an_img = Image.open('anirudh_2023_03_31.jpg')
 dr_img = Image.open('IMG_20210318_074005.jpg')
@@ -16,13 +19,31 @@ kr_img = Image.open('SmartSelect_20220921-133231_WhatsApp.jpg')
 sr_img = Image.open('IMG-20220803-WA0010.jpg')
 bt_img = Image.open('SmartSelect_20230723_211519_WhatsApp.jpg')
 pnd_img = Image.open('Photo from Saathvik S.jpg')
+lkt_img = Image.open('Likith _ kmit.png')
 
 title = st.title("YOU ARE FAMOUS")
 c1 , c2 = st.columns(2)
 
 rn = st.number_input("roll.no or phone no of min 5 digits")
 
+
 with c1:
+
+    if rn == 1:
+        st.header("YOU ARE MAHESH BABU")
+        st.write("You are from Guntur")
+        st.write("You like your family")
+        st.subheader("Prince , Super Star")
+        st.write("fav food : Hyderabad Biryani")
+        st.subheader("Best work : DOOKUDU ")
+
+    if rn == 2:
+        st.header("YOU ARE ALLU ARJUN")
+        st.write("You are from Tollywood")
+        st.write("You like your family")
+        st.subheader("Bunny , Icon Star")
+        st.write("fav food : Biryani")
+        st.subheader("Best work : JULAYI")
 
     if rn == 99481:
         st.header("_YOU ARE AJAY_")
@@ -30,6 +51,14 @@ with c1:
         st.write("You like watching movies")
         st.subheader("Gibbs , bro")
         st.write("fav food : Talkay")
+
+    if rn == 79936 :
+        st.header("_YOU ARE LIKITH_")
+        st.write("You are from KMIT")
+        st.write("You like Photography , Cars")
+        st.subheader("member of TOL")
+        st.write("Fav food : unknown!")
+
 
     if rn == 82476:
         st.header("_YOU ARE SRIKANTH_")
@@ -139,7 +168,9 @@ with c1:
 
 #_____________________________________________Images____________________________
 with c2:
+    
     st.write("**_ _by Saathvik_**")
+
     if rn == 8:
         st.image(papa_img)
 
@@ -178,3 +209,14 @@ with c2:
 
     if rn == 26:
         st.image(hr_img)
+
+    if rn == 79936:
+        st.image(lkt_img)
+
+    if rn == 1:
+        st.image(mb2_img)
+
+    if rn == 2:
+        st.image(aa_img)
+
+    
