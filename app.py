@@ -45,6 +45,13 @@ with c1:
         st.write("fav food : Biryani")
         st.subheader("Best work : JULAYI")
 
+    if rn == 6:
+        st.header("YOU ARE AASHRITHA")
+        st.write("You are from sri chaitanya")
+        st.write("You like instagram")
+        st.subheader("Aashu")
+        st.write("fav food : Egg")
+
     if rn == 99481:
         st.header("_YOU ARE AJAY_")
         st.write("You are from Kothakota")
