@@ -219,4 +219,29 @@ with c2:
     if rn == 2:
         st.image(aa_img)
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+st_style = """
+                <style>
+                #MainMenu{visibility: hidden;}
+                footer {visibility: hidden;}
+                header {visibility: hidden}
+                </style>
+                """
+
+st.markdown(st_style , unsafe_allow_html=True)
