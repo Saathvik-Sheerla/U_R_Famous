@@ -52,6 +52,14 @@ with c1:
         st.subheader("Aashu")
         st.write("fav food : Egg")
 
+    if rn == 79896:
+        st.header("_YOU ARE SURYATEJA_")
+        st.write("You are from K.K.R.H.S")
+        st.write("You like sweets , pets")
+        st.subheader("Sunny")
+
+        st.write("fav food: gulab jamoon")
+
     if rn == 99481:
         st.header("_YOU ARE AJAY_")
         st.write("You are from Kothakota")
