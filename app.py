@@ -208,7 +208,7 @@ with c2:
     if rn == 99481:
         st.image(aj_img)
 
-    if rn == 82476:
+    if rn == 0:
         st.image(sr_img)
 
     if rn == 96402:
