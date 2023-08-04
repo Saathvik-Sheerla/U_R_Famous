@@ -75,13 +75,13 @@ with c1:
         st.write("Fav food : unknown!")
 
 
-    if rn == 0:
+    if rn == 82476:
         st.header("_YOU ARE SRIKANTH_")
-        st.header("_Happy birthday Baa_ 🎂🎉😍")
-        #st.write("You are from Kothakota")
-        st.write("You like Talking, foodie , So have them ")
-        st.subheader("It's your day ")
-        st.write("fav food : Mandi , go have it")
+        #st.header("_Happy birthday Baa_ 🎂🎉😍")
+        st.write("You are from Kothakota")
+        st.write("You like Talking, foodie ")
+        #st.subheader("It's your day ")
+        st.write("fav food : Mandi")
 
     if rn == 96402:
         st.header("_YOU ARE KIRAN_")
@@ -208,7 +208,7 @@ with c2:
     if rn == 99481:
         st.image(aj_img)
 
-    if rn == 0:
+    if rn == 82476:
         st.image(sr_img)
 
     if rn == 96402:
