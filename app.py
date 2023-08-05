@@ -21,7 +21,7 @@ bt_img = Image.open('SmartSelect_20230723_211519_WhatsApp.jpg')
 pnd_img = Image.open('Photo from Saathvik S.jpg')
 lkt_img = Image.open('Likith _ kmit.png')
 
-title = st.title("YOU ARE FAMOUS")
+title = st.subheader("YOU ARE FAMOUS")
 c1 , c2 = st.columns(2)
 
 rn = st.number_input("roll.no or phone no of min 5 digits")
@@ -148,7 +148,7 @@ with c1:
         st.write("You fear Nothing , universe extinction")
         st.write("You like Play games,Writing")
         st.subheader("Papa , Ramana , Mr , Nookayya , papuu , papaayya , pops")
-        st.write("fav food : Egg")
+        st.write("fav food : Egg, Chicken Biryani, ice cream")
 
     if rn == 26:
         st.header("_YOU ARE HARSHITH_")
